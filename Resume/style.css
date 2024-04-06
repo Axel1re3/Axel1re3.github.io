@@ -44,6 +44,38 @@ h2 {
     font-size: 275%;
 }
 
+.bbb{
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.container {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+
+
+button:hover {
+    background-color: #ffc107; /* Darker yellow on hover */
+    
+}
+
 .about, .proff, .pers, .tools {
     color: white;
     text-align: center;

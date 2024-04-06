@@ -6,3 +6,6 @@ homeButton.addEventListener("click", () => { window.scrollTo({ top: 0, behavior:
 aboutButton.addEventListener("click", () => { window.scrollTo({ top: 600, behavior: "smooth" }); }); 
 servicesButton.addEventListener("click", () => { window.scrollTo({ top: 2220, behavior: "smooth" }); }); 
 contactButton.addEventListener("click", () => { window.scrollTo({ top: 100000, behavior: "smooth" }); });
+document.getElementById("openPdfButton").addEventListener("click", function() {
+    window.open("Resume Dmytro.pdf", "_blank");
+});
