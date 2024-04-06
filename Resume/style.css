@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: black;
+}
+
+.ava {
+    display: block;
+    margin: 50px auto;
+    width: 15%;
+    border-radius: 50%;
+}
+
+.myName, .work, h1, h2, .about, .proff, .pers, .professional, ul, li, .p1, .h3, .job-description {
+    font-family: "Segoe UI", Arial, sans-serif;
+    letter-spacing: 1%;
+    color: #948d8d;
+
+}
+
+
+.myName {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.work, h1, h2 {
+    text-align: center;
+}
+
+.work {
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+h1, h2 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 275%;
+}
+
+.about, .proff, .pers, .tools {
+    color: white;
+    text-align: center;
+    font-size: 120%;
+    margin-right: 780px;
+    margin-top: 150px;
+}
+
+.proff, .pers, .tools{
+    font-family: "Montserrat", sans-serif;
+}
+.proff {
+    margin-left: 12px;
+}
+.tools {
+    margin-left: -92px;
+}
+.pers {
+    margin-left: -7px;
+}
+
+
+.about {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+.w3-opacity {
+    margin-left: 452px;
+}
+
+.professional {
+    color: #948d8d;
+}
+
+ul {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 120%;
+    color: #948d8d;
+    margin-left: 450px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.p1, .h3 {
+    margin-left: 452px;
+    margin-top: 30px;
+}
+
+.p1 {
+    margin-top: 30px;
+}
+
+.h3 {
+    margin-top: 100px;
+    font-size: 100%;
+}
+
+.nav {
+    font-family: "Segoe UI", Arial, sans-serif;
+    flex-direction: row;
+    margin-left: 477px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.btn {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin-left: 50px;
+    border: none;
+    color: rgb(251, 255, 0);
+    font-size: 24px;
+    margin-left: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.3s;
+    background-color: black;
+}
+.body-margin {
+    margin-top: 80px; /* Adjust as needed based on the height of your fixed navigation */
+}
+.nav-button:hover {
+    color: #111010;
+}
+
+.home, .about-button, .experience-button, .contact-button {
+    border: 2px solid rgb(238, 255, 0);
+}
+
+.w3-opacity {
+    margin-left: 460px;
+}
+/* Add the following styles for the Work Experience section */
+.work-experience, .job-title, .job-duration, .job-description {
+    font-size: 120%;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+    margin-right: 780px;
+}
+
+.experience-details {
+    margin-left: 452px;
+    margin-top: 30px;
+    color: #948d8d;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.work-experience {
+    margin-top: 100px;
+}
+
+.experience-details h2 {
+    font-size: 275%;
+}
+
+.experience-details ul {
+    margin-top: 10px;
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+.experience-details li {
+    margin-bottom: 10px;
+}
+
+
+
+.work-contact {
+    margin-top: 100px;
+    font-size: 130%;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+    margin-right: 780px;
+}
+
+.contact-me{
+    margin-left: 460px;
+}
+.email, .number, .location{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+   
+.linkedin-button {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 460px;
+   }
+   
+.linkedin-button img {
+    width: 30px;
+    height: 30px;
+   }
